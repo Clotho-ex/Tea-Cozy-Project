@@ -1,0 +1,175 @@
+/* General Styles */
+
+* {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #201710;
+}
+
+html {
+  font-size: 22px;
+}
+
+span {
+  white-space: nowrap;
+}
+
+h2 {
+  padding: 10px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+/* Header */
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #201710;
+  border-bottom: 1px solid seashell;
+  top: 0;
+  height: 69px;
+  width: 100%;
+  z-index: 2;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav ul {
+  margin-right: 10px;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+/* Mission Section */
+
+.mission {
+  background-image: url(/sources/img/img-mission-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  max-width: 1200px;
+  margin: 69px auto;
+  display: flex;
+  align-items: center;
+}
+
+.statement {
+  background-color: #201710;
+  width: 100%;
+}
+
+.statement h4 {
+  position: relative;
+}
+
+/* Featured Tea Section */
+
+.featured {
+  max-width: 1000px;
+  margin: auto;
+  padding: 75px 0 50px;
+}
+
+.featured_head h2 {
+  margin-bottom: 10px;
+}
+
+.featured_head h4 {
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  max-width: 1000;
+}
+
+.teas {
+  margin: 10px 15px;
+}
+
+.teas img {
+  width: 300px;
+  height: 200px;
+}
+
+/* Locations Section */
+
+.locations {
+  background-image: url(/sources/img/img-locations-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  max-width: 1200px;
+  margin: 69px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.boxes {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  max-width: 1200;
+}
+
+
+.location_boxes {
+  flex-wrap: wrap;
+  padding: 15px;
+  opacity: 1;
+  background-color: #201710;
+  width: 300px;
+  height: 200px;
+  line-height: 2;
+  margin: 15px 15px;
+}
+
+/* Information Section */
+
+.information_section {
+  height: 200px;
+}
+
+.info {
+  line-height: 2;
+}
+
+.copyright {
+  float: left;
+  margin-left: 20px;
+  height: 40px;
+  width: 250px;
+}
